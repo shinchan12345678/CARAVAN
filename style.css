@@ -32,6 +32,7 @@ header {
   display: inline-block;
   margin-left: 20px;
   font-size: 32px;
+  color: black;
 }
 
 
@@ -249,4 +250,74 @@ footer {
 
 .footer-text {
   color: #fff
+}
+/* 
+@media screen and (max-width:1024px) {
+  .social i {
+    color: green;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .social i{
+    color: red;
+  }
+} */
+
+@media screen and (max-width:425px) {
+  .social i {
+    color: blue;
+    display: none;
+  }
+  
+  .nav-list-item {
+    display: block;
+    padding: 2px;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  .main {
+    display: block;
+    width: 100%;
+  }
+
+  .blog {
+    width: 100%;
+  }
+
+  .blog-image  {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+
+  .category {
+    display: none;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .popular {
+    padding-top: 50px;
+  }
+
+  .sidebar-contents {
+    padding-left: 10px;
+  }
+
+  .instagram-box {
+    width: 180px;
+    padding-top: 180px;
+  }
+
+  .instagram .sidebar-contents {
+    justify-content: center;
+  }
+  
 }
